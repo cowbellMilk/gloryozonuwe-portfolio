@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Glory Ozonuwe's Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="#" class="link"
+          >GO.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Glory Ozonuwe.</span></h1>
+        <h2 class="about__role">A Software Developer.</h2>
+        <p class="about__desc">
+            I am a recent Software Engineering graduate from Brigham Young University - Idaho and <span class="about__name">I am currently job searching.</span>
+            As a young child growing up, I was very inquisitive and zealous to discover more in life. 
+            Seeing as the future is already consumed by automation and efficient science & technology, I am pleased to be seeking my knowledge in this area. 
+            I am experienced in object-oriented programming, testing and debugging code, automation, algorithmic design, implementation, and web developement. 
+            I quickly learn and master new technologies while successfully working in both team and self-directed settings. I am detail-oriented, responsible, and committed.
+        </p>
+
+        <div class="about__contact center">
+          <a href="./Resume, Glory-Ozonuwe-2023.pdf" target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/ozonuweg"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/glory-ozonuwe/"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="container">
+        <main class="row">
+            <!--     ************* Education Section Starts ********     -->
+            <section class="col">
+                <header class="title">
+                    <h2>EDUCATION</h2>
+                </header>
+                <div class="contents">
+                    <div class="box">
+                        <h4>2021 - 2022</h4>
+                        <h3>Certificate in Web Development</h3>
+                        <p>Acquired on April 2022 from Brigham Young University - Idaho after demonstrating skills in 
+                        HTML, CSS, JavaScript, databases, PHP, and .NET C#</p>
+                    </div>
+                    <div class="box">
+                        <h4>2019 - 2021</h4>
+                        <h3>Associate's Degree in Applied Technology</h3>
+                        <p>After completing the necessary courses, Brigham Young University - Idaho awarded this degree
+                        to show competence in developing web and computer programs </p>
+                    </div>
+                    <div class="box">
+                        <h4>2019 - 2022</h4>
+                        <h3>Bachelor's Degree in Software Engineering</h3>
+                        <p>Finished with a 3.95 GPA and a solid foundation in both the breadth and depth of the 
+                        principles and practices of software engineering as well as skills in computer programming.</p>
+                    </div>
+                </div>
+            </section>
+            <!--     ************* Education Section Ends ********     -->
+
+            <!--     ************* Experience Section Starts ********     -->
+            <section class="col">
+                <header class="title">
+                    <h2>EXPERIENCE</h2>
+                </header>
+                <div class="contents">
+                    <div class="box">
+                        <h4>Feb 2020 - Dec 2022</h4>
+                        <h3>IT Assistant at BYU - Idaho</h3>
+                        <p>Duties include managing and updating the website, processing registration data through 
+                        Qualtrics, and creating problem-solving reports through structured SQL queries from Database</p>
+                    </div>
+                    <div class="box">
+                        <h4>Sep 2022 - Dec 2022</h4>
+                        <h3>CIT/CSEE Tutor at BYU - Idaho</h3>
+                        <p>Tutored an average of 10 college students weekly in Computer Science, Computer Information
+                        Technology, and Computer Programming</p>
+                    </div>
+                    <div class="box">
+                        <h4>June 2022 - Sep 2022</h4>
+                        <h3>Software Engineer Intern at McKesson</h3>
+                        <p>Executed full regression and patch tests of about 1700 and 133 test scripts respectively per sprint cycle
+                        for new features in EnterpriseRx Pharmacy Management System</p>
+                    </div>
+                </div>
+            </section>
+            <!--     ************* Experience Section Ends ********     -->
+        </main>
+      </div>
+
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>PSF Americas</h3>
+            <p class="project__description">
+                This WordPress website is for a non-profit religious organization that showcases
+                information about the group, links upcoming events, provides online counseling, etc.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">WordPress</li>
+              <li class="project__stack-item">Elementor</li>
+              <li class="project__stack-item">PHP</li>
+            </ul>
+
+            <a
+              href="#projects"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://psfamericas.org/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Zabby Hairs</h3>
+            <p class="project__description">
+                Zabby Hairs, built with WordPress CMS, is a hair brand that caters to African &
+                Caribbean audience for hair-brading, weaves, locs, and wig services. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">WordPress</li>
+              <li class="project__stack-item">Elementor</li>
+              <li class="project__stack-item">PHP</li>
+            </ul>
+
+            <a
+              href="#projects"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zabbyhairs.com/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>API Food Recipe</h3>
+            <p class="project__description">
+              This is a recipe app for popular Nigerian dishes that pulls data from an API and lists accurate 
+              Nutrient information like calories, health labels, etc.
+
+
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML/CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">API</li>
+            </ul>
+
+            <a
+              href="#projects"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://ozonuweg.github.io/WDD330-Portfolio/project/recipe.html"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Angular</li>
+          <li class="skills__list-item btn btn--plain">C#</li>
+          <li class="skills__list-item btn btn--plain">Mongoose</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">WordPress</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:gozonuwe@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="#"
+        class="link footer__link"
+      >
+        Created By Glory Ozonuwe
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
